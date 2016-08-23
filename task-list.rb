@@ -2,12 +2,9 @@
 @tasks = []
 
 def display_tasks
-  num_tasks = @tasks.length
-  i = 0
   puts "----------"
-  while i < num_tasks do
+  @tasks.each do |i|
     puts "#{i+1}.) #{@tasks[i]}"
-    i += 1
   end
   puts "----------"
 end

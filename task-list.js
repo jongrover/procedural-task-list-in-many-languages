@@ -7,7 +7,7 @@ function display_tasks() {
   for(i=0; i < num_tasks; i++) {
     response += (i+1) + ".) " + tasks[i] + "\n";
   }
-  response += "\n----------";
+  response += "----------";
   alert(response);
 }
 

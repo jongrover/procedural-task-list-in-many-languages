@@ -2,12 +2,9 @@ exit = False
 tasks = []
 
 def display_tasks():
-    num_tasks = len(tasks)
-    i = 0
     print "----------"
-    while (i < num_tasks):
-        print str(i+1) + ".) " + tasks[i]
-        i += 1
+    for i, task in enumerate(tasks):
+        print "%s.) %s" % (i+1, task)
     print "----------"
 
 def add_task():
