@@ -6,7 +6,7 @@ A task list application written in different languages with the purpose of compa
 
 ## Demos
 
-1. JavaScript: open [index.html](index.html) in a browser.
+1. JavaScript (ES5): open [index.html](index.html) in a browser.
 2. Python: from Terminal type $ `python task-list.py`.
 3. Ruby: from Terminal type $ `ruby task-list.rb`.
 

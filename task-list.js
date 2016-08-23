@@ -2,9 +2,8 @@ var exit = false,
     tasks = [];
 
 function display_tasks() {
-  var num_tasks = tasks.length,
-      response = "----------\n";
-  for(i=0; i < num_tasks; i++) {
+  var response = "----------\n";
+  for(i=0; i < tasks.length; i++) {
     response += (i+1) + ".) " + tasks[i] + "\n";
   }
   response += "----------";
