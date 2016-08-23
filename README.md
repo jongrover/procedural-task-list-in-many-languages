@@ -4,11 +4,16 @@
 
 A task list application written in different languages with the purpose of comparing and contrasting them. It highlights very basic and high use statements in each language such as global and local variables, if else conditional statements, and while loops. It demonstrates how each language deals with: sending messages and gathering input from users, how to convert between strings and integers, define and call functions. I will continue to add more languages as I learn them... or submit them yourself through a pull request.
 
+I haven't yet added validation so this app assumes the user inserts a string for new tasks and integers to remove task by number.
+
 ## Demos
 
+To run the demos it is assumed that you have already installed the required language on your system.
+
 1. JavaScript (ES5): open [index.html](index.html) in a browser.
-2. Python: from Terminal type $ `python task-list.py`.
-3. Ruby: from Terminal type $ `ruby task-list.rb`.
+2. Python v2.7.9: from shell type $ `python task-list.py`.
+3. Ruby v2.2.2p95: from shell type $ `ruby task-list.rb`.
+4. PHP v5.4.45: from shell type $ `php task-list.php`.
 
 ## Contributing
 
