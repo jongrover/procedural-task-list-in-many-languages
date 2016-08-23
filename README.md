@@ -2,7 +2,7 @@
 
 ## About
 
-A task list application written in different languages with the purpose of comparing and contrasting them. It highlights very basic and high use statements in each language such as global and local variables, if else conditional statements, and while loops. It demonstrates how each language deals with: sending messages and gathering input from users, how to convert between strings and integers, define and call functions. I will continue to add more languages as I learn them... or submit them yourself through a pull request.
+A task list application written in different languages with the purpose of comparing and contrasting them. It highlights very basic and high use statements in each language such as global and local variables, if else conditional statements, for loops and while loops. It demonstrates how each language deals with: sending messages and gathering input from users, how to convert between strings and integers, as well as how to define and call functions. I will continue to add more languages as I learn them... or submit them yourself through a pull request!
 
 I haven't yet added validation so this app assumes the user inserts a string for new tasks and integers to remove task by number.
 
