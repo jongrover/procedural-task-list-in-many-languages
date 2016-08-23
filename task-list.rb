@@ -3,8 +3,8 @@
 
 def display_tasks
   puts "----------"
-  @tasks.each do |i|
-    puts "#{i+1}.) #{@tasks[i]}"
+  @tasks.each_with_index do |task, i|
+    puts "#{i+1}.) #{task}"
   end
   puts "----------"
 end
