@@ -1,3 +1,5 @@
+// Browser-side JavaScript (ECMAScript 5)
+
 var exit = false,
     tasks = [];
 

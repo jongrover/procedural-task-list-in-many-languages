@@ -1,3 +1,5 @@
+# Python v2.7.9
+
 exit = False
 tasks = []
 
